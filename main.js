@@ -23,8 +23,8 @@ $(document).ready(function(){
     })
     $('ul').on('click','li', function(e){
         e.preventDefault();
-        $('li img').attr('src', './images/check.png')
-        $('li h3').attr('class', 'finalizado')
+        $('img',this).attr('src', './images/check.png')
+        $('h3',this).attr('class', 'finalizado')
     })
     
 })
